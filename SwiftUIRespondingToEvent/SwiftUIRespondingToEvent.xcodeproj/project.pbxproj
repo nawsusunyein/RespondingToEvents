@@ -21,6 +21,7 @@
 		2357BBD9241F7DDD00FB94DF /* SliderTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2357BBD8241F7DDD00FB94DF /* SliderTestView.swift */; };
 		2357BBDB241F80D800FB94DF /* PickerSelectionViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2357BBDA241F80D800FB94DF /* PickerSelectionViewTest.swift */; };
 		2357BBDD241F844700FB94DF /* DatePickerViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2357BBDC241F844700FB94DF /* DatePickerViewTest.swift */; };
+		2357BBDF241F885C00FB94DF /* SegmentedViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2357BBDE241F885C00FB94DF /* SegmentedViewTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		2357BBD8241F7DDD00FB94DF /* SliderTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderTestView.swift; sourceTree = "<group>"; };
 		2357BBDA241F80D800FB94DF /* PickerSelectionViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerSelectionViewTest.swift; sourceTree = "<group>"; };
 		2357BBDC241F844700FB94DF /* DatePickerViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerViewTest.swift; sourceTree = "<group>"; };
+		2357BBDE241F885C00FB94DF /* SegmentedViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedViewTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 				2357BBD8241F7DDD00FB94DF /* SliderTestView.swift */,
 				2357BBDA241F80D800FB94DF /* PickerSelectionViewTest.swift */,
 				2357BBDC241F844700FB94DF /* DatePickerViewTest.swift */,
+				2357BBDE241F885C00FB94DF /* SegmentedViewTest.swift */,
 			);
 			path = SwiftUIRespondingToEvent;
 			sourceTree = "<group>";
@@ -292,6 +295,7 @@
 				2357BBA3241F6CF700FB94DF /* AppDelegate.swift in Sources */,
 				2357BBA5241F6CF700FB94DF /* SceneDelegate.swift in Sources */,
 				2357BBDD241F844700FB94DF /* DatePickerViewTest.swift in Sources */,
+				2357BBDF241F885C00FB94DF /* SegmentedViewTest.swift in Sources */,
 				2357BBA7241F6CF700FB94DF /* ContentView.swift in Sources */,
 				2357BBDB241F80D800FB94DF /* PickerSelectionViewTest.swift in Sources */,
 			);
