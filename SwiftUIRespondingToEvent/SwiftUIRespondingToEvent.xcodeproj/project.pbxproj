@@ -22,6 +22,7 @@
 		2357BBDB241F80D800FB94DF /* PickerSelectionViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2357BBDA241F80D800FB94DF /* PickerSelectionViewTest.swift */; };
 		2357BBDD241F844700FB94DF /* DatePickerViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2357BBDC241F844700FB94DF /* DatePickerViewTest.swift */; };
 		2357BBDF241F885C00FB94DF /* SegmentedViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2357BBDE241F885C00FB94DF /* SegmentedViewTest.swift */; };
+		2357BBE1241F8B6600FB94DF /* StepperTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2357BBE0241F8B6600FB94DF /* StepperTestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		2357BBDA241F80D800FB94DF /* PickerSelectionViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerSelectionViewTest.swift; sourceTree = "<group>"; };
 		2357BBDC241F844700FB94DF /* DatePickerViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerViewTest.swift; sourceTree = "<group>"; };
 		2357BBDE241F885C00FB94DF /* SegmentedViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedViewTest.swift; sourceTree = "<group>"; };
+		2357BBE0241F8B6600FB94DF /* StepperTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperTestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 				2357BBDA241F80D800FB94DF /* PickerSelectionViewTest.swift */,
 				2357BBDC241F844700FB94DF /* DatePickerViewTest.swift */,
 				2357BBDE241F885C00FB94DF /* SegmentedViewTest.swift */,
+				2357BBE0241F8B6600FB94DF /* StepperTestView.swift */,
 			);
 			path = SwiftUIRespondingToEvent;
 			sourceTree = "<group>";
@@ -293,6 +296,7 @@
 				2357BBD5241F730600FB94DF /* TappableButtonView.swift in Sources */,
 				2357BBD7241F78E700FB94DF /* TextFieldView.swift in Sources */,
 				2357BBA3241F6CF700FB94DF /* AppDelegate.swift in Sources */,
+				2357BBE1241F8B6600FB94DF /* StepperTestView.swift in Sources */,
 				2357BBA5241F6CF700FB94DF /* SceneDelegate.swift in Sources */,
 				2357BBDD241F844700FB94DF /* DatePickerViewTest.swift in Sources */,
 				2357BBDF241F885C00FB94DF /* SegmentedViewTest.swift in Sources */,
