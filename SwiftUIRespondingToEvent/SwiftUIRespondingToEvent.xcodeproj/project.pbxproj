@@ -15,6 +15,7 @@
 		2357BBAF241F6D0000FB94DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2357BBAD241F6D0000FB94DF /* LaunchScreen.storyboard */; };
 		2357BBBA241F6D0000FB94DF /* SwiftUIRespondingToEventTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2357BBB9241F6D0000FB94DF /* SwiftUIRespondingToEventTests.swift */; };
 		2357BBC5241F6D0000FB94DF /* SwiftUIRespondingToEventUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2357BBC4241F6D0000FB94DF /* SwiftUIRespondingToEventUITests.swift */; };
+		2357BBD3241F6F9F00FB94DF /* ToggleSwitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2357BBD2241F6F9F00FB94DF /* ToggleSwitchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		2357BBC0241F6D0000FB94DF /* SwiftUIRespondingToEventUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIRespondingToEventUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2357BBC4241F6D0000FB94DF /* SwiftUIRespondingToEventUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIRespondingToEventUITests.swift; sourceTree = "<group>"; };
 		2357BBC6241F6D0000FB94DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2357BBD2241F6F9F00FB94DF /* ToggleSwitchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleSwitchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				2357BBAD241F6D0000FB94DF /* LaunchScreen.storyboard */,
 				2357BBB0241F6D0000FB94DF /* Info.plist */,
 				2357BBAA241F6D0000FB94DF /* Preview Content */,
+				2357BBD2241F6F9F00FB94DF /* ToggleSwitchView.swift */,
 			);
 			path = SwiftUIRespondingToEvent;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2357BBD3241F6F9F00FB94DF /* ToggleSwitchView.swift in Sources */,
 				2357BBA3241F6CF700FB94DF /* AppDelegate.swift in Sources */,
 				2357BBA5241F6CF700FB94DF /* SceneDelegate.swift in Sources */,
 				2357BBA7241F6CF700FB94DF /* ContentView.swift in Sources */,

@@ -9,8 +9,21 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    let componentsList = ["Toggle Switch"]
+    
     var body: some View {
-        Text("Hello World")
+        NavigationView{
+            List{
+                NavigationLink(destination:ToggleSwitchView()){
+                    Text(componentsList[0])
+                        .padding()
+                        .background(Color.blue)
+                        .foregroundColor(Color.white)
+                        .cornerRadius(10)
+                }
+            }
+        }
     }
 }
 
