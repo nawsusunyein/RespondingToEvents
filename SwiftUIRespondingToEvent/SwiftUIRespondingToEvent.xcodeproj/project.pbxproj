@@ -18,6 +18,7 @@
 		2357BBD3241F6F9F00FB94DF /* ToggleSwitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2357BBD2241F6F9F00FB94DF /* ToggleSwitchView.swift */; };
 		2357BBD5241F730600FB94DF /* TappableButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2357BBD4241F730600FB94DF /* TappableButtonView.swift */; };
 		2357BBD7241F78E700FB94DF /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2357BBD6241F78E700FB94DF /* TextFieldView.swift */; };
+		2357BBD9241F7DDD00FB94DF /* SliderTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2357BBD8241F7DDD00FB94DF /* SliderTestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		2357BBD2241F6F9F00FB94DF /* ToggleSwitchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleSwitchView.swift; sourceTree = "<group>"; };
 		2357BBD4241F730600FB94DF /* TappableButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TappableButtonView.swift; sourceTree = "<group>"; };
 		2357BBD6241F78E700FB94DF /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		2357BBD8241F7DDD00FB94DF /* SliderTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderTestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				2357BBD2241F6F9F00FB94DF /* ToggleSwitchView.swift */,
 				2357BBD4241F730600FB94DF /* TappableButtonView.swift */,
 				2357BBD6241F78E700FB94DF /* TextFieldView.swift */,
+				2357BBD8241F7DDD00FB94DF /* SliderTestView.swift */,
 			);
 			path = SwiftUIRespondingToEvent;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2357BBD9241F7DDD00FB94DF /* SliderTestView.swift in Sources */,
 				2357BBD3241F6F9F00FB94DF /* ToggleSwitchView.swift in Sources */,
 				2357BBD5241F730600FB94DF /* TappableButtonView.swift in Sources */,
 				2357BBD7241F78E700FB94DF /* TextFieldView.swift in Sources */,

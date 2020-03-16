@@ -10,7 +10,7 @@ import SwiftUI
 
 struct ContentView: View {
     
-    let componentsList = ["Toggle Switch","Tappable Button","Text Fields"]
+    let componentsList = ["Toggle Switch","Tappable Button","Text Fields","Slider"]
     
     var body: some View {
         NavigationView{
@@ -31,6 +31,13 @@ struct ContentView: View {
                 }.buttonStyle(PlainButtonStyle())
                 NavigationLink(destination:TextFieldView()){
                     Text(componentsList[2])
+                        .padding()
+                        .background(Color.blue)
+                        .foregroundColor(Color.white)
+                        .cornerRadius(10)
+                }.buttonStyle(PlainButtonStyle())
+                NavigationLink(destination:SliderTestView()){
+                    Text(componentsList[3])
                         .padding()
                         .background(Color.blue)
                         .foregroundColor(Color.white)
