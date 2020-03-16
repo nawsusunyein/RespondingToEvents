@@ -10,6 +10,7 @@ import SwiftUI
 
 struct TappableButtonView: View {
     @State private var showDetails = false
+    @State private var showFruitsDetails = false
     
     var body: some View {
         VStack{
@@ -22,9 +23,20 @@ struct TappableButtonView: View {
                     .foregroundColor(Color.black)
                     .cornerRadius(10)
             }
-            
+
             if(showDetails){
                 Text("Please follow us on twitter")
+            }
+            
+            Button(action:{
+                self.showFruitsDetails.toggle()
+            }){
+                Image("strawberry-surprise")
+                    .renderingMode(.original)
+            }
+            
+            if(showFruitsDetails){
+                Text("Please follow us on Instagram")
             }
         }
     }
