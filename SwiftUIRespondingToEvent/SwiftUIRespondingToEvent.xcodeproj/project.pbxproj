@@ -27,6 +27,7 @@
 		2357BBE5241F937900FB94DF /* TapGestureContentShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2357BBE4241F937900FB94DF /* TapGestureContentShape.swift */; };
 		23E5C2D824206BB300253A50 /* GestureToView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C2D724206BB300253A50 /* GestureToView.swift */; };
 		23E5C2DA24206C5000253A50 /* SecondContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C2D924206C5000253A50 /* SecondContentView.swift */; };
+		23E5C2DC2420734800253A50 /* LifeCycleEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C2DB2420734800253A50 /* LifeCycleEventView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		2357BBE4241F937900FB94DF /* TapGestureContentShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureContentShape.swift; sourceTree = "<group>"; };
 		23E5C2D724206BB300253A50 /* GestureToView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureToView.swift; sourceTree = "<group>"; };
 		23E5C2D924206C5000253A50 /* SecondContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondContentView.swift; sourceTree = "<group>"; };
+		23E5C2DB2420734800253A50 /* LifeCycleEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeCycleEventView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 				2357BBE4241F937900FB94DF /* TapGestureContentShape.swift */,
 				23E5C2D724206BB300253A50 /* GestureToView.swift */,
 				23E5C2D924206C5000253A50 /* SecondContentView.swift */,
+				23E5C2DB2420734800253A50 /* LifeCycleEventView.swift */,
 			);
 			path = SwiftUIRespondingToEvent;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23E5C2DC2420734800253A50 /* LifeCycleEventView.swift in Sources */,
 				2357BBD9241F7DDD00FB94DF /* SliderTestView.swift in Sources */,
 				2357BBD3241F6F9F00FB94DF /* ToggleSwitchView.swift in Sources */,
 				2357BBD5241F730600FB94DF /* TappableButtonView.swift in Sources */,
