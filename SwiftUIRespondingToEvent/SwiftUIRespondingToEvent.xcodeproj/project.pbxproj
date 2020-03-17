@@ -28,6 +28,7 @@
 		23E5C2D824206BB300253A50 /* GestureToView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C2D724206BB300253A50 /* GestureToView.swift */; };
 		23E5C2DA24206C5000253A50 /* SecondContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C2D924206C5000253A50 /* SecondContentView.swift */; };
 		23E5C2DC2420734800253A50 /* LifeCycleEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C2DB2420734800253A50 /* LifeCycleEventView.swift */; };
+		23E5C2DE2420753F00253A50 /* LabelsHiddenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C2DD2420753F00253A50 /* LabelsHiddenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		23E5C2D724206BB300253A50 /* GestureToView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureToView.swift; sourceTree = "<group>"; };
 		23E5C2D924206C5000253A50 /* SecondContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondContentView.swift; sourceTree = "<group>"; };
 		23E5C2DB2420734800253A50 /* LifeCycleEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeCycleEventView.swift; sourceTree = "<group>"; };
+		23E5C2DD2420753F00253A50 /* LabelsHiddenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelsHiddenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 				23E5C2D724206BB300253A50 /* GestureToView.swift */,
 				23E5C2D924206C5000253A50 /* SecondContentView.swift */,
 				23E5C2DB2420734800253A50 /* LifeCycleEventView.swift */,
+				23E5C2DD2420753F00253A50 /* LabelsHiddenView.swift */,
 			);
 			path = SwiftUIRespondingToEvent;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 				2357BBE1241F8B6600FB94DF /* StepperTestView.swift in Sources */,
 				23E5C2DA24206C5000253A50 /* SecondContentView.swift in Sources */,
 				2357BBA5241F6CF700FB94DF /* SceneDelegate.swift in Sources */,
+				23E5C2DE2420753F00253A50 /* LabelsHiddenView.swift in Sources */,
 				2357BBDD241F844700FB94DF /* DatePickerViewTest.swift in Sources */,
 				2357BBDF241F885C00FB94DF /* SegmentedViewTest.swift in Sources */,
 				2357BBA7241F6CF700FB94DF /* ContentView.swift in Sources */,
