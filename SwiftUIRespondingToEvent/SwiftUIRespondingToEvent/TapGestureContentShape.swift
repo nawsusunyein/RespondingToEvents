@@ -10,7 +10,15 @@ import SwiftUI
 
 struct TapGestureContentShape: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            Image("strawberry-surprise").resizable().frame(width:50,height:50)
+            Spacer().frame(height:50)
+            Text("Testing image")
+        }
+        .contentShape(Rectangle())
+        .onTapGesture {
+            print("tapped vstack")
+        }
     }
 }
 
