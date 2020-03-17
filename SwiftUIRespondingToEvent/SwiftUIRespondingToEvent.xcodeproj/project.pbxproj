@@ -29,6 +29,7 @@
 		23E5C2DA24206C5000253A50 /* SecondContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C2D924206C5000253A50 /* SecondContentView.swift */; };
 		23E5C2DC2420734800253A50 /* LifeCycleEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C2DB2420734800253A50 /* LifeCycleEventView.swift */; };
 		23E5C2DE2420753F00253A50 /* LabelsHiddenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C2DD2420753F00253A50 /* LabelsHiddenView.swift */; };
+		23E5C2E02420783C00253A50 /* AllowsHitsTestingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E5C2DF2420783C00253A50 /* AllowsHitsTestingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		23E5C2D924206C5000253A50 /* SecondContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondContentView.swift; sourceTree = "<group>"; };
 		23E5C2DB2420734800253A50 /* LifeCycleEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeCycleEventView.swift; sourceTree = "<group>"; };
 		23E5C2DD2420753F00253A50 /* LabelsHiddenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelsHiddenView.swift; sourceTree = "<group>"; };
+		23E5C2DF2420783C00253A50 /* AllowsHitsTestingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllowsHitsTestingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 			children = (
 				2357BBA2241F6CF700FB94DF /* AppDelegate.swift */,
 				2357BBA4241F6CF700FB94DF /* SceneDelegate.swift */,
+				23E5C2DF2420783C00253A50 /* AllowsHitsTestingView.swift */,
 				2357BBA6241F6CF700FB94DF /* ContentView.swift */,
 				2357BBA8241F6D0000FB94DF /* Assets.xcassets */,
 				2357BBAD241F6D0000FB94DF /* LaunchScreen.storyboard */,
@@ -322,6 +325,7 @@
 				23E5C2DE2420753F00253A50 /* LabelsHiddenView.swift in Sources */,
 				2357BBDD241F844700FB94DF /* DatePickerViewTest.swift in Sources */,
 				2357BBDF241F885C00FB94DF /* SegmentedViewTest.swift in Sources */,
+				23E5C2E02420783C00253A50 /* AllowsHitsTestingView.swift in Sources */,
 				2357BBA7241F6CF700FB94DF /* ContentView.swift in Sources */,
 				2357BBE3241F8FD300FB94DF /* TapGesturesView.swift in Sources */,
 				2357BBDB241F80D800FB94DF /* PickerSelectionViewTest.swift in Sources */,

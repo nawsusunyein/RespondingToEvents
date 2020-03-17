@@ -10,7 +10,7 @@ import SwiftUI
 
 struct SecondContentView: View {
     
-    let componentsList = ["Tap Gesture Content Shape","Add Gesture to View","Lifecycle Event","Labels Hidden"]
+    let componentsList = ["Tap Gesture Content Shape","Add Gesture to View","Lifecycle Event","Labels Hidden","Allows Hit Testing View"]
     var body: some View {
         List{
             NavigationLink(destination:TapGestureContentShape()){
@@ -36,6 +36,13 @@ struct SecondContentView: View {
             }.buttonStyle(PlainButtonStyle())
             NavigationLink(destination:LabelsHiddenView()){
                 Text(componentsList[3])
+                    .padding()
+                    .background(Color.blue)
+                    .foregroundColor(Color.white)
+                    .cornerRadius(10)
+            }.buttonStyle(PlainButtonStyle())
+            NavigationLink(destination:AllowsHitsTestingView()){
+                Text(componentsList[4])
                     .padding()
                     .background(Color.blue)
                     .foregroundColor(Color.white)
